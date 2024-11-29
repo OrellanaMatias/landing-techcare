@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Techcare</title>
+        <meta name="description" content="" />
+        <link
+            rel="shortcut icon"
+            href="./assets/logo/icon.ico"
+            type="image/x-icon"
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="Techcare" />
+        <meta property="og:description" content="Software de gestión de reparaciones" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://github.com/OrellanaMatias" />
+        <meta property="og:image" content="Logo" />
+
+        <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css" /> -->
+        <link rel="stylesheet" href="./css/tailwind-build.css">
+        <link rel="stylesheet" href="css/index.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+            integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="tw-flex tw-font-mono tw-min-h-[100vh] tw-flex-col tw-bg-[#181B20] tw-text-white">
+      
+
+        <header
+            class="lg:tw-justify-around tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] 
+                    tw-text-white"
+        >
+            <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
+                <img
+                    src="./assets/logo/icon.ico"
+                    alt="logo"
+                    class="tw-object tw-h-full tw-w-full"
+                />
+            </a>
+            <div
+                class="collapsible-header animated-collapse max-lg:tw-shadow-md"
+                id="collapsed-header-items"
+            >
+                <div
+                    class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-white max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
+                >
+                </div>
+            </div>
+            
+        </header>
+
+
+        <section
+            class="tw-relative tw-flex tw-min-h-[100vh] hero-section tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-mt-[50px]"
+            id="hero-section"
+        >
+            <div
+                class="hero-bg-gradient tw-flex tw-h-full tw-min-h-[100vh] tw-w-full tw-flex-col tw-place-content-center tw-gap-6 tw-p-[5%] max-lg:tw-p-4  max-xl:tw-place-items-center"
+            >
+                <div
+                    class="tw-flex tw-flex-col tw-place-content-center tw-items-center"
+                >
+                    <div
+                        class="reveal-up tw-text-center gradient-text tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[80px] max-lg:tw-text-4xl max-md:tw-leading-snug"
+                    >
+                        <span class=""> TECHCARE </span>
+                    </div>
+                    <div
+                        class="reveal-up tw-mt-10 tw-max-w-[450px] tw-p-2 tw-text-center max-lg:tw-max-w-full"
+                    >
+                        Software de gestión de reparaciones, desarrollado con Visual Basic .NET y MySQL como base de datos.
+                    </div>
+
+                    <div
+                        class="reveal-up tw-mt-4 tw-flex tw-place-items-center tw-gap-4 tw-overflow-hidden tw-p-2"
+                    >
+                        <a
+                            class="btn tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+                            onclick="document.getElementById('descargar').scrollIntoView({ behavior: 'smooth' });"
+                        >
+                            Descargar ahora
+                        </a>
+                        <a
+                            class="btn !tw-bg-white !tw-text-secondary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+                            onclick="document.getElementById('ola').scrollIntoView({ behavior: 'smooth' });"
+                        >
+                            <span>Saber más</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div
+                    class="reveal-up tw-flex tw-w-full tw-place-content-center tw-place-items-center"
+                    id="dashboard-container">
+                    
+                    <div
+                        class="tw-flex tw-max-h-[750px] tw-min-h-[450px] tw-w-full tw-min-w-[350px] tw-max-w-[950px] tw-rounded-2xl 
+                                    tw-overflow-hidden tw-shadow-xl tw-shadow-[#443e437c]
+                                    max-lg:tw-h-fit max-lg:tw-max-h-[320px] max-lg:tw-min-h-[150px] max-lg:tw-w-[320px]"
+                    id="dashboard">
+                        <img
+                            src="./assets/images/home/dashboard.png"
+                            alt="dashboard"
+                            class="tw-h-full tw-w-full tw-object-cover  max-lg:tw-object-contain"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="tw-mt-5 tw-flex tw-w-full tw-flex-col tw-place-items-center tw-p-[2%]"
+            id="descargar"
+        >
+            <h3
+                class="tw-text-4xl tw-font-medium tw-text-primary max-md:tw-text-2xl"
+            >
+                Software necesario
+            </h3>
+            <div
+                class="tw-mt-10 tw-flex tw-flex-wrap tw-place-content-center tw-gap-8 max-lg:tw-flex-col"
+            >
+                <div
+                    class="reveal-up tw-flex tw-border-[#333a44] tw-bg-[#1d2127] tw-border-[1px] tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]"
+                >
+                    <h3 class="">
+                        <span class="tw-text-4xl tw-font-semibold">XAMPP</span>
+                    </h3>
+                    <p class="tw-mt-3 tw-text-center tw-text-gray-300">
+                        Servidor MySQL local, será necesario para levantar un servidor MySQL y utilizarlo para guardar nuestra información.
+                    </p>
+                    <hr />
+                    <a
+                        href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.0.30/xampp-windows-x64-8.0.30-0-VS16-installer.exe"
+                        class="btn tw-mt-8 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]"
+                    >
+                        Descargar
+                    </a>
+                </div>
+                <div
+                    class="reveal-up tw-flex tw-bg-[#1d2127] tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-border-2 tw-border-primary tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]"
+                >
+                    <h3 class="">
+                        <span class="tw-text-4xl tw-font-semibold">Techcare</span>
+                    </h3>
+                    <p class="tw-mt-3 tw-text-center tw-text-gray-300">
+                        Ejecutable .exe de Techcare, requiere de .NET Framework 4.5 o superior</br></br>
+                    </p>
+                    <hr />
+                    <a
+                        href="https://github.com/OrellanaMatias/techcare/releases/download/v1.0.0.0/techcare.exe"
+                        class="btn tw-mt-8 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]"
+                    >
+                        Descargar
+                    </a>
+                </div>
+                <div
+                    class="reveal-up tw-flex tw-border-[#333a44] tw-bg-[#1d2127] tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]"
+                >
+                    <h3 class="">
+                        <span class="tw-text-4xl tw-font-semibold">.NET Framework</span>
+                    </h3>
+                    <p class="tw-mt-3 tw-text-center tw-text-gray-300">
+                        Techcare esta desarrollado 100% en Visual Basic .NET, por lo que requiere ciertas dependencias.</br></br>
+                    </p>
+                    <hr />
+                    <a
+                        href="https://github.com/OrellanaMatias/techcare/releases/download/v1.0.0.0/NDP452-KB2901951-x86-x64-DevPack.exe"
+                        class="btn tw-mt-8 !tw-w-full tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.02]"
+                    >
+                        Descargar
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="ola"
+            class="tw-relative tw-flex tw-w-full tw-min-h-[80vh] tw-max-w-[100vw] tw-flex-col tw-place-content-center 
+            tw-place-items-center tw-overflow-hidden tw-p-6"
+        >
+            
+            <div
+                class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center
+                        tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
+            >
+                <div class="tw-flex">
+                    <div class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg 
+                                tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]">
+                        <img
+                            src="./assets/images/home/coding.png"
+                            alt="coding"
+                            class="tw-h-full tw-w-full tw-object-cover"
+                        />
+                    </div>
+                </div>
+                <div
+                    class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+                >
+                    <h3 class="tw-text-4xl max-md:tw-text-2xl tw-font-medium">Caracteristicas principales</h3>
+
+                    <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                        <h4 class="tw-text-xl tw-font-medium">
+                            <i class="bi bi-check-all !tw-text-2xl"></i>
+                            Completamente offline
+                        </h4>
+                        <span class="tw-text-lg tw-text-gray-300">
+                            El software está diseñado para no depender de ningun recurso externo ni de terceros, por lo que puede funcionar sin conexión a internet.
+                        </span>
+                    </div>
+                    <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                        <h4 class="tw-text-xl tw-font-medium">
+                            <i class="bi bi-check-all !tw-text-2xl"></i>
+                            Interfaz amigable
+                        </h4>
+                        <span class="tw-text-lg tw-text-gray-300">
+                            Techcare posee una interfaz sencilla y gráfica que permite que la interacción sea fluida y rápida.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section
+            class="tw-relative tw-flex tw-w-full tw-min-h-[80vh] tw-max-w-[100vw] tw-flex-col tw-place-content-center 
+            tw-place-items-center tw-overflow-hidden tw-p-6"
+        >
+            
+            <div
+                class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center
+                        tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
+            >
+                
+                <div
+                    class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+                >
+                    <h3 class="tw-text-4xl max-md:tw-text-2xl tw-font-medium">Funcionalidades de Techcare</h3>
+
+                    <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                        <h4 class="tw-text-xl tw-font-medium">
+                            <i class="bi bi-check-all !tw-text-2xl"></i>
+                            Sistema de inicio de sesión
+                        </h4>
+                        <span class="tw-text-lg tw-text-gray-300">
+                            Cada usuario/empleado tiene un nivel de acceso diferente, lo que permite que haya una mejor gestión de la información y integridad de los datos.
+                        </span>
+                    </div>
+                    <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                        <h4 class="tw-text-xl tw-font-medium">
+                            <i class="bi bi-check-all !tw-text-2xl"></i>
+                            Asistente de configuración
+                        </h4>
+                        <span class="tw-text-lg tw-text-gray-300">
+                            Techcare posee un asistente de configuración que le ayudará a configurar Techcare muy fácil y rápido.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="tw-flex">
+                    <div class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg 
+                                tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]">
+                        <img
+                            src="./assets/images/home/git.png"
+                            alt="coding"
+                            class="tw-h-full tw-w-full tw-object-cover"
+                        />
+                    </div>
+                </div>
+
+            </div>
+        
+        </section>
+</body>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"
+        integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"
+        integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./index.js"></script>
+</html>
